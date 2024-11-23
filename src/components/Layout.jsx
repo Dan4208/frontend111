@@ -23,10 +23,10 @@ const Layout = ({ children }) => {
         </nav>
       </header>
 
-      {/* Main Content */}
+     
       <main className="main-content">{children}</main>
 
-      {/* Footer Section */}
+      
       <footer className="footer">
         <p>&copy; 2024 Roy Parcero. All Rights Reserved.</p>
       </footer>
