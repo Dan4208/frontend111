@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/about';
 import Home from './pages/home';
@@ -6,12 +6,9 @@ import Contact from './pages/contact';
 import Hobbies from './pages/hobbies';
 import Education from './pages/education';
 
-
-
 function App() {
   const [count, setCount] = useState(0)
   
-
   return (
     
      <Router>
@@ -25,12 +22,6 @@ function App() {
       </Routes>
     </div>
     </Router>
-   
-   
-  
-    
-   
-   
   )
 }
 
